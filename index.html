@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p>Застосовується до тегів p, вага 0.0.0.1 fon color yellow</p><br>
+
+    <p class="paragraph">Застосовується до елемента p, з классом "paragraph" , вага 0.0.1.0 fon color aqua </p><br>
+
+    <p id="par_id">Застосовується до елемента p, з id "par_id", вага 0.1.0.0 fon color blueviolet</p><br>
+
+    <a href="https://www.google.com.ua/"> Застосовується до елемента a, з атрибутом href, вага 0.0.1.0 </a><br>
+
+    <div><br>
+        <p>Застосовується до тегів p, вкладених у div, виділено за допомоги вкладеного селектора fon color green , вага 0.0.0.2 fon color yellow</p>
+        <a href="https://google.com.ua/">GOOGLE</a>
+    </div>
+    <br>
+
+    <div><br>
+        <span>Text</span>
+        <ul>
+            <li>
+                Застосовується до тега в ul вкладеного в div, виділено за допомогою дочірнього селектора, вага 0.0.0.2
+            </li>
+            <li>
+                TEXT1
+            </li>
+        </ul>
+    </div>
+
+    <div class="content"><br><br>
+        <h1>Text</h1>
+        <span>Застосовується до тега span який знаходиться перший після h1 вкладених в div з классом "content" за допомогою послідовність селекторів, вага 0.0.1.2</span><br>
+        <span>Text</span>
+        <span>Tex1</span>
+    </div><br>
+
+    <p style="background-color: blue;">Вбудований стиль, вага 1.0.0.0.</p><br>
+
+    <p id="id_p_1" class="numb">1</p>
+    <p id="id_p_2" class="numb">Застосовується до тега p з класом "numb" та id="id_p_2", вага 0.1.0.2 </p>
+    <p id="id_p_3" class="numb">3</p><br><br>
+
+    <div class="">
+        <h1 class="">
+            <a href="">link1</a>
+        </h1>
+        <h2 class="hrefh2">
+            <a href="">застосовується до тега a з классом hrefh2 за допомогою псевдоелемента hover, вага 0.0.2.0 </a>
+        </h2>
+        <h3 class="">
+            <a href="">link3</a>
+        </h3>
+    </div>
+
+</body>
+</html>

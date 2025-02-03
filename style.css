@@ -1,0 +1,57 @@
+body{
+    font-size: 25px;
+}
+p {
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.paragraph{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#par_id{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+a[href*="www"] {
+    background-color: brown;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+div p {
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+div > ul {
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.content  h1 + span {
+    background-color: orange;
+    margin: 5px;
+    padding: 1px;
+    border: 2px solid black;
+}
+.numb + #id_p_2{
+    background-color: aquamarine;
+}
+
+
+.hrefh2 a:hover {
+    background-color: rgb(151, 151, 228);
+}
